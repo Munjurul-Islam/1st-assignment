@@ -1,0 +1,156 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-family: 'Redressed', cursive;
+    background-image: linear-gradient(90deg, #0083D0, #75a579, #0083D0, gray);
+}
+section{
+    margin-bottom: 30px;
+}
+
+.menu-bar {
+    text-align: right;
+    padding: 10px;
+}
+.menu-bar a {
+    text-decoration: none;
+    padding: 15px;
+    
+    color: white;
+    border-radius: 7px;
+}
+.menu-bar a:hover {
+    background-color: #91909cab;
+}
+.wellcome-area{}
+.text-color-highlight{
+    color: orange;
+}
+.half-width {
+    height: 400px;
+    width: 40%;
+    float: left;
+    margin: 2%;
+    padding: 2%;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.half-width p{
+    font-size: 20px;
+    
+}
+.link-btn {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 13px 33px;
+    border-radius: 8px;
+    background-color: #FB7362;
+}
+.half-width img {
+    width: 100%;
+}
+.project-area h1{
+    text-align: center;
+    font-size: 40px;
+}
+.about-area{}
+.project-area{ 
+    
+}
+.card {
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px;
+    width: 30%;
+    margin-left: 2%;
+    padding: 5px;
+    display: inline-block;
+}
+.card img {
+    width: 100%;
+}
+.contact-area {
+    height: 468px;
+    overflow: hidden;
+}
+.contact-area h1{
+    text-align: center;
+    font-size: 60px;
+}
+.contact-box {
+    width: 48%;
+    height: 500px;
+    background-color: lightcyan;
+    border-radius: 4px;
+    
+    overflow: hidden;
+    padding: 5px;
+    display: inline-block;
+}
+.contact-box img {
+    height: 24px;
+}
+
+.contact-box a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    padding: 16px;
+    display: block;
+}
+#message{
+    width 500px;
+    background-color: #0e0eee31;
+    box-shadow: 0 0 20px 0 #999;
+
+}
+form{
+    margin: 35px;
+    margin-top: 0px;
+}
+.input-field {
+    width: 400px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+}
+.textarea-field{
+    height: 100px;
+    padding-top: 10px;
+    resize: none;
+}
+
+
+
+.inquiry-area {
+    overflow: hidden;
+    background-image: url(images/3.png);
+    width: 80%;
+    margin-left: 104px;
+    border-radius: 25px;
+    
+}
+.inquiry-area h1 {
+    font-size: 30px;
+    float: left;
+    color: wheat;
+    margin: 75px;
+}
+.inquiry-area a {
+    float: right;
+    margin: 65px;
+    
+}
+footer {
+    text-align: center;
+}
+footer a img{
+    height: 40px;
+    padding: 14px;
+}
+
